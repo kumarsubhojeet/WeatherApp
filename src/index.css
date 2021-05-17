@@ -1,13 +1,193 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background:   #633974    ;
+}
+.main{
+ display: flex;
+ margin:5rem  auto;
+ padding-top: ;
+ width: 30%;
+ border-radius: 7px;
+ border: 4px solid #5d6d7e ;
+
+
+}
+.containere{
+    margin-top: ;
+    margin-left: 3rem;
+    width: 40%;
+    border: 3px solid transparent;
+    padding-top: 7rem;
+  
+    background:   ;
+    height: 400px;
+   
+   
+}
+.location{
+    padding: 1rem 1rem;
+    margin-left: 50px;
+    width: 50%;
+    background:  ;
+    color: white;
+    height: auto;
+    text-align: left;
+    display: grid;
+    height: 400px;
+
+    
+}
+.WA{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -60px;
+    margin-bottom: 6rem;
+    color:  #0e6655 ;
+
+}
+.navbar{
+    width: 100%;
+    height: 9rem;
+}
+.Navimg{
+    height: 9rem;
+    padding: 2px;
+}
+.Nitem{
+    text-decoration: none;
+   color: pink;
+}
+.input{
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  display: grid;
+}
+.form{
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: black;
+    /* border: 2px solid black; */
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    margin: 10px 0;
+}
+.btn{
+    background: white;
+    border: 2px solid transparent ;
+}
+.btn:hover{
+    background: white;
+    color: tomato;
+    border: 2px solid transparent ;
+}
+.temp_h4{
+    font-size: 2rem;
+    text-align: left;
+}
+.fas{
+    margin-left: 2rem;
+}
+.winds{
+    display: flex;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.date{
+    background:   ;
+    color: white;
+    display: flex;
+    
 }
+.days{
+      
+    padding: 3px 0;
+}
+.montha{
+    color: white;
+    margin-left: 1rem;
+    padding: 3px 0;
+
+}
+.hhr{
+    height: 10px;
+    
+}
+.temp{
+    text-align: center;
+}
+.temp_h4{
+    text-align: center;
+}
+.temp h5{
+    text-align: center;
+}
+.city_img{
+    display: ;
+    text-align: center;
+}
+.Cityname{
+    text-align: center;
+}
+.error{
+    margin-top: 11rem;
+    width: 70%;
+    font-family: 'Itim', cursive;
+    text-align: center;
+    color: tomato;
+    font-size: 30px;
+}
+.winds{
+    margin: auto;
+    border: 2px solid transparent;
+    text-align: center;
+}
+.winds h5{
+    /* border: 2px solid black; */
+  margin: 0 auto;   
+    text-align: center;
+}
+.Clouds{
+    font-size: 36px;
+    margin-right: 20px;
+    color: white;
+}
+.Clear{
+    font-size: 36px;
+    margin-right: 20px;
+    color: yellow;
+}
+.Snow{
+    font-size: 36px;
+    margin-right: 20px;
+    color: cyan;
+}
+.Rain{
+    font-size: 36px;
+    margin-right: 20px;
+    color: cyan;
+}
+.Drizzle{
+    font-size: 36px;
+    margin-right: 20px;
+    color: cyan;
+}
+.Thunderstorm{
+    font-size: 36px;
+    margin-right: 20px;
+    color: black;
+}
+.Smog{
+    font-size: 36px;
+    margin-right: 20px;
+    color: gray;
+}
+

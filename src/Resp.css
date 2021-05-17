@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 780px) {
+   .main{
+    border: 2px solid transparent;
+       width: 95%;
+       height: 100vh;
+       display: grid;
+       background:  #f5eef8   ;
+      margin-top: 0;
+   }
+   .containere{
+       width: 100%;
+       display: flex;
+       margin-top: -80px;
+       text-align: center;
+   }
+   .WA{
+ display: none;
+
+}
+.input{
+   margin: 0;
+   width: 80%;
+   display: ;
+   padding: 0;
+   
+   height: 7rem;
+  }
+  .form{
+    width: 80%;
+    
+  }
+  .location{
+    width: 100%;
+    background:  ;
+    margin-left: 0px;
+    color: white;
+    display: grid;
+    height: auto;
+    margin-top: -320px;
+    border-radius: 7px;
+    
+}
+.error{
+    margin-top: -19rem;
+    width: 70%;
+    font-family: 'Itim', cursive;
+    text-align: center;
+    color: tomato;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 30px;
+}
+}
