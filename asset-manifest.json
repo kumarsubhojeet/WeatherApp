@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/WeatherApp/static/css/main.0dc34173.chunk.css",
+    "main.js": "/WeatherApp/static/js/main.38e4fa28.chunk.js",
+    "main.js.map": "/WeatherApp/static/js/main.38e4fa28.chunk.js.map",
+    "runtime-main.js": "/WeatherApp/static/js/runtime-main.0d454314.js",
+    "runtime-main.js.map": "/WeatherApp/static/js/runtime-main.0d454314.js.map",
+    "static/js/2.321d49c6.chunk.js": "/WeatherApp/static/js/2.321d49c6.chunk.js",
+    "static/js/2.321d49c6.chunk.js.map": "/WeatherApp/static/js/2.321d49c6.chunk.js.map",
+    "index.html": "/WeatherApp/index.html",
+    "static/css/main.0dc34173.chunk.css.map": "/WeatherApp/static/css/main.0dc34173.chunk.css.map",
+    "static/js/2.321d49c6.chunk.js.LICENSE.txt": "/WeatherApp/static/js/2.321d49c6.chunk.js.LICENSE.txt",
+    "static/media/15034.a7fd8ac9.jpg": "/WeatherApp/static/media/15034.a7fd8ac9.jpg",
+    "static/media/Cloudy Weather - Time Lapse.9d0c6605.mp4": "/WeatherApp/static/media/Cloudy Weather - Time Lapse.9d0c6605.mp4",
+    "static/media/Timelapse from sunny to storm to sunny in 2 minutes at Modena 2 Tower.7cbfbd2f.mp4": "/WeatherApp/static/media/Timelapse from sunny to storm to sunny in 2 minutes at Modena 2 Tower.7cbfbd2f.mp4",
+    "static/media/bg-clouds.9b2ebda8.jpg": "/WeatherApp/static/media/bg-clouds.9b2ebda8.jpg",
+    "static/media/delhi-cold.a296a50b.jpg": "/WeatherApp/static/media/delhi-cold.a296a50b.jpg",
+    "static/media/rain-umbrella-vancouver-weather.jpg;w=960.7ad6ef44.jpg": "/WeatherApp/static/media/rain-umbrella-vancouver-weather.jpg;w=960.7ad6ef44.jpg",
+    "static/media/rain.909836b4.mp4": "/WeatherApp/static/media/rain.909836b4.mp4",
+    "static/media/snow.f19fb68e.jpg": "/WeatherApp/static/media/snow.f19fb68e.jpg",
+    "static/media/sunny.f3e6309a.jpg": "/WeatherApp/static/media/sunny.f3e6309a.jpg",
+    "static/media/thunder.ca4840d7.mp4": "/WeatherApp/static/media/thunder.ca4840d7.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d454314.js",
+    "static/js/2.321d49c6.chunk.js",
+    "static/css/main.0dc34173.chunk.css",
+    "static/js/main.38e4fa28.chunk.js"
+  ]
+}
