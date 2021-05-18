@@ -14,6 +14,7 @@ import Thunder_ved from "../Components/Vedios/thunder.mp4"
 import Rain from "../Components/Vedios/rain.mp4"
 import Clouds from "../Components/Vedios/Cloudy Weather - Time Lapse.mp4"
 
+import logo from "../Components/img/c95f0b8d17c34449bedf59c169ee25a2.png"
 
 
 const api = {
@@ -119,7 +120,7 @@ const Home = () => {
                         >
 
             <div className="containere">
-                <h3 className='WA'>Weather App</h3>
+                <h3 className='WA'></h3>
             <div className="input">
                 <input type="text"
                     className="form"
@@ -129,9 +130,9 @@ const Home = () => {
                     aria-label="Recipient's username"
                     aria-describedby="basic-addon2" />
 
-                <div className="input-group-append">
+            
                     <button className="btn" type="button" onClick={btnClick}>Serach</button>
-                </div>
+                
 
 
                
@@ -146,7 +147,6 @@ const Home = () => {
                         
                       }} >
                        
-                    
                         <div className='date'>
                             <h5 className='days'>{n}</h5>
                             <h5 className='montha'>{currDate}<span>{month}</span></h5>
@@ -166,16 +166,36 @@ const Home = () => {
 
                         <div className='winds'>
                             
-                            <h5><i class="fas fa-arrow-up"></i> {weather.main.temp_max}<sup>o</sup>C</h5>
-                            <h5><i class="fas fa-arrow-down"></i> {weather.main.temp_min}  <sup>o</sup>C</h5>
-                            {/* <h5><i class="fas fa-wind"></i>{weather.wind.speed}</h5> */}
+                            <h5><i className="fas fa-arrow-up"></i> {weather.main.temp_max}<sup>o</sup>C</h5>
+                            <h5><i className="fas fa-arrow-down"></i> {weather.main.temp_min}  <sup>o</sup>C</h5>
+                            
                         </div>
+                        <div className="details">
+                            Details
+                            <h5>Humidity: {weather.main.humidity}%</h5>
+                            <h5>Wind: {weather.wind.speed} meter/sec</h5>
+                            <h5>Pressure: {weather.main.pressure} hpa</h5>
+                            <h5>Visibility: {weather.visibility/1000} km</h5>
+                            <div className="cords">
+                            
+                                <h5>lon: {weather.coord.lon}</h5>
+                                <h5>lat: {weather.coord.lat}</h5>
+                                
+                            </div>
+                        </div>
+                        
                     </div>
                 
             ) : (
-                <div className="error">Start Your Search</div>
-            )}</div>
-   
+                <div className="error">
+                    <h5>Start Your Search</h5>
+                    <img src={logo} className='logo_img' alt="" />
+                </div>
+                
+            )}
+            </div>
+            
+
         </>
     )
 }

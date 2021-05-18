@@ -8,12 +8,12 @@
 }
 .main{
  display: flex;
- margin:5rem  auto;
+ margin:3rem  auto;
  padding-top: ;
- width: 30%;
+ width: 60%;
  border-radius: 7px;
- border: 4px solid #5d6d7e ;
-
+ border: 4px solid black ;
+ height: auto;
 
 }
 .containere{
@@ -29,16 +29,17 @@
    
 }
 .location{
-    padding: 1rem 1rem;
+    padding: rem 1rem;
     margin-left: 50px;
     width: 50%;
-    background:  ;
-    color: white;
+    color: black;
     height: auto;
     text-align: left;
     display: grid;
-    height: 400px;
-
+    height: auto;
+    font-weight: 900;
+    margin-bottom: 0px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     
 }
 .WA{
@@ -105,6 +106,8 @@
     background:   ;
     color: white;
     display: flex;
+    font-family: 'Pacifico', cursive;
+    margin-left: 20px;
     
 }
 .days{
@@ -138,7 +141,7 @@
     text-align: center;
 }
 .error{
-    margin-top: 11rem;
+    margin-top: 5rem;
     width: 70%;
     font-family: 'Itim', cursive;
     text-align: center;
@@ -146,19 +149,22 @@
     font-size: 30px;
 }
 .winds{
-    margin: auto;
+    margin: 0 50px;
     border: 2px solid transparent;
-    text-align: center;
+    text-align:center ;
+    
 }
 .winds h5{
     /* border: 2px solid black; */
-  margin: 0 auto;   
+    margin: 0  auto;   
     text-align: center;
+    font-weight: 600;
+    color:  #cb4335 ;
 }
 .Clouds{
     font-size: 36px;
     margin-right: 20px;
-    color: white;
+    color: black;
 }
 .Clear{
     font-size: 36px;
@@ -190,4 +196,30 @@
     margin-right: 20px;
     color: gray;
 }
-
+.details{
+    margin:0 auto ;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80%;
+    background: rgb( 52, 152, 219,.5);
+    display: grid;
+    font-family: 'KoHo', sans-serif;    
+}
+.btn{
+    display: inline-block;
+  width: 40%;
+  margin:0 auto;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    margin-bottom: 5px;
+    background-color: #2471a3 ;
+    transition: 1s ;
+  }
+  .btn:hover{
+    background-color:  #f5b041 ;
+    color: black;
+  }
